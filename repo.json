@@ -1,0 +1,29 @@
+{
+  "apps": [
+    {
+      "beta": false,
+      "bundleIdentifier": "thewonderofyou.Feather",
+      "developerName": "Samara",
+      "downloadURL": "https://github.com/khcrysalis/Feather/releases/download/v2.6.0/Feather.ipa",
+      "iconURL": "https://github.com/khcrysalis/Feather/blob/v1.x/iOS/Resources/Icons/Main/Mac@3x.png?raw=true",
+      "localizedDescription": "Feather is a free on-device iOS application manager/installer built with UIKit for quality.",
+      "name": "Feather",
+      "screenshotURLs": [
+        "https://github.com/khcrysalis/Feather/blob/v1.x/Images/Library.png?raw=true",
+        "https://github.com/khcrysalis/Feather/blob/v1.x/Images/Repos.png?raw=true",
+        "https://github.com/khcrysalis/Feather/blob/v1.x/Images/Sign.png?raw=true",
+        "https://github.com/khcrysalis/Feather/blob/v1.x/Images/Store.png?raw=tru"
+      ],
+      "size": 12598584,
+      "subtitle": "On-device signing application",
+      "tintColor": "848ef9",
+      "version": "2.6.0",
+      "versionDate": "2025-12-22T08:20:00Z",
+      "versionDescription": "Migrated codebase to use the *OS 26 SDK with help from @Nyasami.\nAdded Liquid Glass icon.\nAdded iOS 26 BackgroundTasks API for background downloads.\nAdded appearance options for changing library icon appearance (Light/Dark) on iOS 18.0+ with help from @hugeBlack.\nTinting options are available on iOS 18.2+.\nAdded appearance options for custom tint color.\nAdded success alert when updating SSL certificates by @planeklm.\nFixed issue where bundle was using outdated SSL certificates, causing common issues regarding being stuck on \"Ready\".\nFixed incorrect handling of NSExtension modifications by @Nyasami.\nFixed issue where certain app names would not appear in Library by @Nyasami.\nFixed an issue where certain apps weren't able to install by deleting a leftover _CodeSignature directory by @Nyasami.\nFixed issue where a malicious .deb was able to make Feather crash on launch.\nMade the iOS 26+ arm64e slice fixup run regardless of version, mainly for exports."
+    }
+  ],
+  "identifier": "com.blackhat.source",
+  "name": "The Black Hat Source",
+  "news": [],
+  "userInfo": {}
+}
